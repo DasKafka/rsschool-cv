@@ -1,13 +1,83 @@
+body{
+    margin: 0;
+}
 header {
-    background-color: aliceblue;
-        height: 150px;    
+    
+    background-color: rgb(162, 225, 236);  
+       
 }
-main {
-    background-color: rgb(204, 204, 243);
-    height: 400px;
-}
-footer {
-    background-color: rgb(218, 175, 175);
+
+footer{
+    
+    padding-top: 250px;
+    border: solid rgb(162, 225, 236);    
  
-    height: 150px;
+  }
+
+
+.profileImage {
+    border-radius: 10px;
+    box-shadow: 10px  5px 5px gray;   
+    max-width: 20%;        
+    margin: 5px ;
+    
 }
+
+header h1{
+    display: inline;
+    font-size: 250%;    
+    position: fixed;     
+    padding-left: 10%;   
+    color: aliceblue;
+    text-shadow: 3px 5px 5px rgb(197, 195, 195);    
+    border-left-width: 0px;
+
+}
+header h2{
+    display: inline;
+    font-size: 200%;    
+    position: absolute; 
+    padding-top: 6%;    
+    padding-left: 10%;   
+    color: aliceblue;
+    text-shadow: 3px 5px 5px rgb(197, 195, 195);  
+
+}
+.leftBlock{
+    position: absolute;
+    margin: 5px;
+    padding: 5px 10px;
+    max-width: 25%; 
+    height: 230px;
+    border: solid rgb(162, 225, 236);
+    border-radius: 10px;
+    color: rgb(162, 225, 236);
+    font-size: 1rem;
+    overflow: hidden;
+
+ }
+ .leftBlock, .rightBlock h2{
+    color: rgb(162, 225, 236);    
+ }
+ .rightBlock{
+    position: absolute;
+    margin: 5px;
+    padding: 5px 10px;
+    left: 30%;
+    width: 65%; 
+    height: 230px;
+    border: solid rgb(162, 225, 236);
+    border-radius: 10px;
+    overflow: hidden;
+    color: rgb(162, 225, 236);
+    font-size: 1rem;
+ }
+ .courseImage {    
+    max-width: 20%;        
+    margin: 5px ; 
+    
+ }
+ a {
+    color: rgb(162, 225, 236);
+    font-size: 2rem;
+ }
