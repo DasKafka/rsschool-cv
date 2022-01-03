@@ -1,1 +1,1 @@
-# rsschool-cv
+<https://daskafka.github.io/rsschool-cv/>
