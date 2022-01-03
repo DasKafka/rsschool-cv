@@ -1,1 +1,1 @@
-# rsschool-cv
+<https://github.com/DasKafka/rsschool-cv/cv>
